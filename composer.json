@@ -1,0 +1,27 @@
+{
+    "name": "learn/laravel-captcha",
+    "description": "private package",
+    "keywords": ["laravel", "framework", "Learn"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jiang Tao",
+            "email": "3077740338@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Learn\\Captcha\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Learn\\Captcha\\CaptchaServiceProvider"
+            ]
+        }
+    }
+}
